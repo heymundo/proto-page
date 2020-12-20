@@ -34,7 +34,7 @@ body {
 .logo-box {
   align-items: center;
   animation: fade_in 0.6s;
-  background: url("../assets/images/himundo-2.png") no-repeat center;
+  background: url("images/himundo-2.png") no-repeat center;
   background-size: 100%;
   border-radius: 50%;
   box-shadow: 0 0 100px #000;
