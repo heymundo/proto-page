@@ -6,7 +6,7 @@
 
 body {
   background-color: rgba(30, 96, 151, 0.4);
-  background-image: url("/assets/images/bgImg.png");
+  background-image: url("images/bgImg.png");
   background-repeat: no-repeat;
   background-size: 100VW;
   font-family: Arial-Black, sans-serif;
