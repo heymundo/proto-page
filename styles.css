@@ -15,7 +15,7 @@ body {
 
 .container {
   background: #fff;
-  color: rgba(180, 180, 210, 0.6);
+  color: rgba(80, 180, 210, 0.6);
   padding: 2rem auto;
   width: 100%;
   box-shadow: 0 10px 100px #1e6097, 0 0 50px rgba(0, 0, 0, 0.6), -10px 0 100px #000, 0 0 200px rgba(30, 96, 151, 0.6);
