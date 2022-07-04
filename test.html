@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="icon" type="image/x-icon" href="/images/faviconC.ico">
+  <meta charset="utf-8">
+  <meta name="X-UA" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+  <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+  <title>navbar!</title>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js' defer></script>
+  <!-- <script src="default.js" charset="utf-8" defer></script> -->
+  <script src="main.js" charset="utf-8" defer></script>
+  <style>
+    body {
+      overflow-y:
+        hidden;
+      /*  background-color: #c1bfcf;*/
+
+
+
+    }
+
+    .Pointer {
+
+      cursor: url(https://cdn.glitch.com/745f9a59-9ec4-49ad-b0eb-487b57bda865%2Fgreen_dotty_arrow%20copy.png?v=1631484701899) 16 16,
+        auto;
+    }
+
+    .cursor {
+      cursor: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2Fdotty_arrow.ico?v=1626149642111) 16 16,
+        auto;
+    }
+
+    * {
+      cursor: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2Fdotty_arrow.ico?v=1626149642111) 16 16,
+        auto;
+      transition: all 0.25s ease-out;
+      caret-color: transparent;
+      user-select: none;
+      font-family: tech-font;
+    }
+
+    body {
+      cursor: url(https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2Fdotty_arrow.ico?v=1626149642111) 16 16,
+        auto;
+      padding: 0;
+      margin: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      position: fixed;
+    }
+
+    main {
+      overflow: auto;
+      padding: 0;
+      margin: 0;
+    }
+
+    .collapsible {
+      position: relative;
+      color: rgba(255, 255, 255, 0.1);
+      text-shadow: -1px -1px 1px rgba(222, 222, 222, 0.8), 1px 1px 1px rgba(0, 0, 0, 0.8);
+      cursor: pointer;
+      padding: 0;
+      border: none;
+      text-align: center;
+      outline: none;
+      top: 20px;
+      width: 130px;
+      font-size: 27px;
+      left: -10px;
+      transition: all .75s ease-out;
+      cursor: url(https://cdn.glitch.com/745f9a59-9ec4-49ad-b0eb-487b57bda865%2Fgreen_dotty_arrow%20copy.png?v=1631484701899) 16 16,
+        auto;
+    }
+
+    ul {
+      margin-right: 50px;
+    }
+
+    .active,
+    .collapsible:hover {
+      font-size: 28px;
+      transition: all .5s ease-out;
+    }
+
+    section,
+    div {
+      overflow: hidden;
+    }
+
+    iframe {
+      border: none;
+    }
+
+    .content {
+      cursor: url('https://cdn.glitch.com/d15a0c62-6117-4382-a960-4f51f8fc660a%2Fdotty_arrow.ico?v=1626149642111') 16 16,
+        auto;
+      padding-2op: 0px;
+      width: 300px;
+      height: 600px;
+      max-height: 0;
+      
+      transition: all .75s ease-out;
+      border: none;
+    }
+
+    img {
+      background: rgba(0, 0, 0, 0);
+    }
+
+    /*.play {
+
+}*/
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="main-header" style="overflow:visible;">
+    <div class="logo">
+      <div class="cursor content" style="background: none;">
+
+      </div>
+
+    </div>
+    <label for="menu-btn" class="menu-icon">
+      <input type="checkbox" class="menu-btn" id="menu-btn">
+     
+        <!-- <span class=""><h1 style="margin-top:3px;font-size:85px;position:absolute;">JoshuaCompton</h1></span> -->
+      </label>
+    <!-- navigation links -->
+    <ul class="nav-links">
+      <li class="nav-link">
+        <a id="test" href="#">About</a>
+      </li>
+      <li class="nav-link">
+        <a href="#">one</a>
+      </li>
+      <li class="nav-link">
+        <a href="#">two</a>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="section section-top">
+    <div class="content rellax" data-rellax-speed="5">
+    </div>
+  </section>
+
+
+
+
+
+  <section marginTop="10%" class="section section-stream">
+    <img
+				class="play rellax"
+        style="z-index:-1; position:relative; margin-top:10vh;"
+				src="images/face.png"
+				alt=""
+				data-rellax-speed="-1" data-rellax-xs-speed="-5"
+			/>
+    <div class="content rellax" data-rellax-speed="10">
+      <div>
+        <h2 class="secondary-text">Stream Everything</h2>
+        <p style="margin-top:300px;">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
+          dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+        </p>
+      </div>
+      <div>
+        <h2 class="secondary-text">Short is the New Long</h2 class="secondary-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
+          dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <section style="height:100vh;" class="section section-grid">
+    <div class="rellax" data-rellax-speed="1" data-rellax-xs-speed="3">
+      <i class="fas fa-video fa-3x secondary-text"></i>
+      <h2>Watch<span class="secondary-text dot">.</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
+        dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+      </p>
+    </div>
+    <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
+      <i class="fas fa-users fa-3x secondary-text"></i>
+      <h2>Share<span class="secondary-text dot">.</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
+        dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+      </p>
+    </div>
+    <div class="rellax" data-rellax-speed="7" data-rellax-xs-speed="3">
+      <i class="fas fa-book fa-3x secondary-text"></i>
+      <h2>Learn<span class="secondary-text dot">.</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore et
+        dicta consectetur incidunt omnis nam quis quidem nisi ipsa deserunt.
+      </p>
+    </div>
+  </section>
+  <footer style="margin-top:300vh" class="footer">
+    <ul>
+      <li><a href="#">Faq</a></li>
+      <li><a href="#">Terms of Use</a></li>
+      <li><a href="#">Privacy Notice</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">About Us</a></li>
+    </ul>
+
+  </footer>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+  </script>
+  <script src="script.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" defer>
+  </script>
+</body>
+
+</html>
+
+</html>
